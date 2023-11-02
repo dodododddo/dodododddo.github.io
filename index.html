@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Theme</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .top-box {
+      border-bottom: 1px solid #e8e8e8;
+    }
+
+    .top {
+      font-size: 30px;
+      font-weight: 500;
+      height: 67px;
+      margin: 0 350px;
+    }
+
+    .vertical-center {
+      display: flex;
+      align-items: center;
+    }
+
+    .content-box {
+      margin: 30px 350px 30px 350px;
+    }
+
+    .bottom-box {
+      border-top: 1px solid #e8e8e8;
+    }
+
+    .bottom {
+      margin: 15px 350px 30px 350px;
+    }
+
+    .bottom-icon {
+      width: 16px;
+      height: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 顶部 -->
+  <div class="top-box">
+    <div class="top vertical-center">Jiarui Chen</div>
+  </div>
+
+  <!-- 中间内容 -->
+  <div class="content-box">
+    <div class="row">
+      <div class="col-8">
+        <!-- 文字 -->
+        <div>Welcome! </div>
+        <div style="margin-top: 30px">
+          <span> You can find the source code and the instructions on </span>
+          <a href="http://github.com/dodododddo">GitHub</a>.
+        </div>
+      </div>
+      <!-- 图片 -->
+      <div class="col-16"><img src="./img/profile-pic.jpg" style="width: 204px; height: 305px" /></div>
+    </div>
+  </div>
+
+  <!-- 底部 -->
+  <div class="bottom-box">
+    <div class="bottom">
+      <span style="color: #828282"> CONTACT </span>
+      <!-- 邮箱 -->
+      <div>
+        <img src="./img/email.png" class="bottom-icon" />
+        <a href="jrchennnn@foxmail.com" id="email-link"> yourmail@domain.com </a>
+      </div>
+      <!-- github -->
+      <div>
+        <img src="./img/github.png" class="bottom-icon" />
+        <a href="http://github.com/dodododddo"> GitHub </a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
